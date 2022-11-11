@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+
+    <h1>Hello World!</h1>
+    <br>
+    <hr />
+
+    
+    <nav>
+        <ol>
+            <li>
+                <a href="#HTML">HTML</a>
+            </li>
+            <li>
+                <a href="#Places I will visit">Places I like</a>
+            </li>
+            <li>
+                <a href="#visit">Places I would love to visit</a>
+
+            </li>
+            <li>
+                <a href="#Man City">Man City</a>
+            </li>
+            <li>
+                <a href="#Contact me">Contact me</a>
+            </li>
+        </ol>
+    </nav>
+    </header>
+    <br>
+    <hr />
+    <main>
+    <section id="HTML">
+    <h2>I am ready to learn HTML</h2>
+    <br>
+    <h4>This is my first Web Page</h4>
+    <br><br>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZ2I-ldjzKQRJX1boL2V3ieuDWA0LZFrIzfboKLP0vEg&s" alt="HTML5 logo" width="300" height="300">
+    </section>
+    <br><br>
+    <h2>My daily schedule</h2>
+    
+    <h4>Let me tell you how:</h4>
+    <ol>
+        <li>......I wake up at 6 am</li>
+        <li>......I go to clg by 7:30 am</li>
+        <li>......I love <a href="https://www.mancity.com/"> Man City </a></li>
+        <br>
+
+        <ol>
+            <aside>
+                <details>
+                    <summary>Guess the number of hours I code per day</summary>
+                    <p>I code for atleast 5-6 hours every day </p>
+                </details>
+            </aside>
+        </ol>
+
+        <table>
+            <caption>Daily schedule</caption>
+            <thead>
+                <th>&nbsp;</th>
+                <th>Time</th>
+                <th>Activity</th>
+            </thead>
+            <tr>
+                <th>Morning</th>
+                <td><time datetime="8:00">8 am</time>-<time datetime="11:00">11 am</time>
+            </td>
+
+            <td>Sleep</td>
+            </tr>
+            <tr>
+                <th>Afternoon</th>
+                <td><time datetime="12:00">12 pm</time>-<time datetime="14:00">2 pm</time> 
+            </td>
+
+            <td>Eat</td>
+            </tr>
+            <tr>
+                <th>Evening</th>
+                <td><time datetime="15:00">3 pm</time>-<time datetime="19:00">7 pm</time>
+            </td>
+            <td>Study</td>
+
+            <tr>
+                <th rowspan="2">Break</th>
+                <td rowspan="2">All other time</td>
+                <td>Game</td>
+                
+            </tr>
+            <tr>
+                <td>Bath</td>
+            </tr>
+            
+
+            
+            
+
+        </table>
+
+
+    </ol>
+    <br>
+    <hr />
+    <br>
+    <section id="Places I will visit">
+    <h1>Places I'd like to visit</h1>
+    <br>
+    <ul>
+        <li>I have heard good things about the carribean</li>
+        <br>
+        <li>Vegas is great</li>
+        <br>
+        <figure>
+        <img src="http://t1.gstatic.com/licensed-image?q=tbn:ANd9GcSthIPMtKs8mwhm8xsenqh6VRUHnfV2-he9NkLRbVfhfbGLzZb_rOxF5bULVwbJx1Qx" alt="vegas strip" width="350" height="300">
+        <figcaption>Vegas Strip</figcaption>
+        </figure>
+        <br><br>
+        <li>I would like to visit Manchester once</li>
+    </ul>
+    </section>
+    <br>
+    <section id="visit">
+    <h1>Places I would like to avoid</h1>
+    <ul>
+    <p><li>Chennai. <strong>No Way!</strong></li></p>
+    <li><address>7A-282,Patia,BBSR,Odisha,India</address></li>
+    <figure>
+        <img src="kiit.jpeg" alt="KIIT" width="250" height="250">
+        <figcaption>Rat house</figcaption>
+    </figure>
+    </ul>
+    </section>
+    <br>
+    <hr />
+    <br>
+    <section id="Man City">
+    <h1>Things I love about Man City</h1>
+    <dl>
+        <dt>Playstle</dt>
+        <dd>The <strong>Passing</strong></dd>
+        <dt>KDB</dt>
+        <dd>The <strong>GOAT!</strong></dd>
+    </dl>
+    <hr />
+    
+    </section>
+    </main>
+    <section id="Contact me">
+    <form action="/action.php">
+        <fieldset>
+            <legend>Personal Info</legend>
+            <label for="First Name:">First Name: </label>
+            <input type="text" placeholder="First Name">
+            <br><br>
+            <label for="Last Name">Last Name: </label>
+            <input type="text" placeholder="Last Name">
+            <br><br>
+            <label for="Password">Password: </label>
+            <input type="Password" placeholder="type your password here">
+            <br><br>
+            <label for="phone">Phone: </label>
+            <input type="number" placeholder="555-555-5555"
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"required>
+            <br><br>
+            <label for="Decade">Favourite Decade</label>
+            <input type="number" min="1950" max="2020" step="10" value="1980">
+            <br><br>
+    
+            <label for="Coffee">Favourite Coffee</label>
+            <select name="Coffees">
+            <datalist id="Coffee-list">
+            <option value="regular">regular</option>
+            <option value="iced">iced</option>
+            <option value="latte">latte</option>
+            <option value="capuccino">capuccino</option>
+            <option value="cortado">cortado</option>
+            <option value="americano">americano</option>
+            </datalist>
+            </fieldset>
+            <option value="other">other</option>
+            </select>
+            <br>
+            <hr />
+            <fieldset>
+                <legend>Who is the GOAT</legend>
+                <input type="radio" name="GOAT" value="Ronaldo">
+                <label for="Ronaldo">Ronaldo</label>
+                <br>
+                <input type="radio" name="GOAT" value="Messi">
+                <label for="Messi">Messi</label>
+                <br>
+                <input type="radio" name="GOAT" value="Brady">
+                <label for="Brady">Brady</label>
+                <br>
+
+              
+                
+                
+            
+                
+                
+                <hr />
+            </fieldset>
+            <fieldset>
+                <legend>Do you have Pets</legend>
+                <input type="checkbox" name="Pets" value="dogs">
+                <label for="dogs">Dogs</label>
+                <br>
+                <input type="checkbox" name="Pets" value="cats">
+                <label for="cats">Cats</label>
+                <br>
+                <input type="checkbox" name="Pets" value="rats">
+                <label for="rats">Ratss</label>
+
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Send me a note:</legend>
+                <label for="Message">Your Message</label>
+                <br>
+                <textarea name="message" col="30" rows="10" placeholder="Type your message here"></textarea>
+            </fieldset>
+        
+    </form>
+    </section>
+
+    <hr />
+
+    &lt;&lt;&lt; &copy; To learn more about me <a href="about.html" target="_main">Click here</a> &gt;&gt;&gt;
+    <br><br>
+    <a href="#">Back to top</a>
+
+
+
+    
+    
+</body>
+</html>
